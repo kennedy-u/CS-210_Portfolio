@@ -1,12 +1,12 @@
 # Cplusplus-Program
 
-# Summary
+# Summary.
 I created an application that allows users to see how their investments will grow over time. 
 
 # What I did particularly well.
-I did in including a user interface that include all the required elements. 
-I designed a calculator that calculate monthly interest, interest rate for annual, and I divide the rate by 12
-below is the code to calculate given year and interest earned
+I did well in including a user interface that include all the required elements. 
+I designed a calculator that calculated monthly interest, interest rate for annual, and I divide the rate by 12
+below is the code to calculate the given year and interest earned
 
     int currentyear = 1;
 
