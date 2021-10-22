@@ -5,8 +5,8 @@ I created an application that allows users to see how their investments will gro
 
 # What I did particularly well.
 I did well in including a user interface that include all the required elements. 
-I designed a calculator that calculated monthly interest, interest rate for annual, and I divide the rate by 12
-below is the code to calculate the given year and interest earned
+I designed a calculator that calculated monthly interest, interest rate for annual, and I divide the rate by 12.
+Below is the code to calculate the given year and interest earned
 
     int currentyear = 1;
 
