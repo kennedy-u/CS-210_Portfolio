@@ -4,9 +4,8 @@ CS-210 Projects
 ## [Project 1 - Clock App](Project%201%20-%20Clock%20App)
 A 12 and 24-hour console clock app written in C++.
 
-Display 12-hour clock format where the clock does not exceed 12:59:59.
-Display 24-hour clock format where the clock does not exceed 23:59:59.
-And both clocks will synchronously  display the host current time in a proper format.
+Display 12-hour clock format where the clock does not exceed 12:59:59, display 24-hour clock format where the clock does not exceed 23:59:59,
+and both clocks will synchronously  display the host current time in a proper format.
 
 ![Image](images/Clock-App.jpg)
 
