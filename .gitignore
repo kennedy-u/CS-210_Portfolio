@@ -118,6 +118,15 @@ ipch/
 *.vspx
 *.sap
 
+# Visual Studio solution file
+*.sln
+
+# Visual Studio project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+
 # Visual Studio Trace Files
 *.e2e
 
