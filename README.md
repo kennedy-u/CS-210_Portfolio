@@ -8,7 +8,7 @@ Display 12-hour clock format where the clock does not exceed 12:59:59.
 Display 24-hour clock format where the clock does not exceed 23:59:59.
 And both clocks will synchronously  display the host current time in a proper format.
 
-![Image](Clock-App.jpg)
+![Image](Investment_output.png)
 
 
 ## What I did particularly well.
