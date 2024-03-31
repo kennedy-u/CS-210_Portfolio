@@ -9,6 +9,17 @@ and both clocks will synchronously  display the host current time in a proper fo
 
 ![Image](images/Clock-App.jpg)
 
+## [Project 2 - Investment Banking App](Project%202%20-%20Investment%20Banking%20App)
+Investment and compound interest console app written in C++.
+
+An application that allows users to see how their investment will grow over time.
+A screen that takes initial investment amount, monthly deposit, annual interest (compound) and number of years.
+
+![Image](images/Investment_input.png)
+
+A screen that displays two static reports. One for year-end balances and year-end earned interest if no additional monthly deposits are made. The second displays the year-end balances and year-end earned interest based on the monthly deposit value that was input by the yser ($50.00 in this example). See below
+
+![Image](images/Investment_output.png)
 
 ## What I did particularly well.
 I did well in including a user interface that include all the required elements. 
