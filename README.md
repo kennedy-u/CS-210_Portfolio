@@ -2,6 +2,7 @@
 CS-210 Projects
 
 ## [Project 1 - Clock App](Project%201%20-%20Clock%20App)
+A 12 and 24-hour console clock app written in C++.
 
 
 ## What I did particularly well.
