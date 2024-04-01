@@ -43,5 +43,5 @@ Header File Purpose: Header files (.h) serve as declarations for classes, functi
 Separation of Declaration and Definition its standard practice to declare classes and their methods in the header file and define them later in the source code (.cpp files).
 
 ## Skills I learned from this project that are tranferable to other projects or course work.
-Skills I learned from this project include how to declare functions properly and do some calculations and logics that are required during the development of a source code. Throughout this course I deeply learned how to integrate C++ and Python!!!! It took me time to fully digest how it works and now I can easily refer to the file path and do my configuration how I want it or as specified.
+Skills I learned from this project include how to declare functions properly and do some calculations and logics that are required during the development of a project source code. Throughout this course I deeply learned how to integrate C++ and Python!!!! It took me some time to fully digest how these processes works. Now I can easily refer to the file path and do my configuration how I want it or as specified.
 Thanks for reading :)
