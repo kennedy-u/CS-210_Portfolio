@@ -35,7 +35,7 @@ Reads in a given text-based file that conatains a list of purchased items for a 
 Integrated interface that incorporates all the necessary elements. Specifically, I designed a calculator that computes both monthly interest and the annual interest rate, which is then divided by 12. Below, you’ll find the code to calculate the interest earned over a given number of years.
 
 ## Challanges I faced when writing the code and how I overcome them.
-During the development and integration of my sources, I encountered minimal roadblocks. However, I did face some confusion when designing the .h header file. It was nearly my first time including a header file in a C++ program. To overcome this, I sought assistance from the academic support service.
+During the development and integration of my sources, I encountered minimal roadblocks. However, I did face some roadblocks when I was designing the .h header files. It was nearly my first time including a header files in a C++ program. To overcome this, I sought assistance from the academic support service.
 
 Here are things I learned during that process.
 
