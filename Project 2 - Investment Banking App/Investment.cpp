@@ -92,7 +92,7 @@ void savings::reportWithMonthlyDeposits() {
 
     //Print heading
 
-    cout << "   Balance and Interest without additional Monthly Deposits" << endl;
+    cout << "   Balance and Interest with additional Monthly Deposits" << endl;
 
     cout << "==========================================================================" << endl;
 
