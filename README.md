@@ -19,7 +19,7 @@ A screen that takes initial investment amount, monthly deposit, annual interest 
 
 A screen that displays two static reports. One for year-end balances and year-end earned interest if no additional monthly deposits are made. The second displays the year-end balances and year-end earned interest based on the monthly deposit value that was input by the yser ($50.00 in this example). See below
 
-![Image](images/Investment_output.png)
+![Image](images/Investment_output.jpg)
 
 ## What I did particularly well.
 I did well in including a user interface that include all the required elements. 
