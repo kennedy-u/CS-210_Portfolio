@@ -10,7 +10,7 @@ and both clocks will synchronously  display the host current time in a proper fo
 ![Image](images/Clock-App.jpg)
 
 ## [Project 2 - Investment Banking App](Project%202%20-%20Investment%20Banking%20App)
-Investment and compound interest console app written in C++.
+Investment/compound interest console app written in C++.
 
 An application that allows users to see how their investment will grow over time.
 A screen that takes initial investment amount, monthly deposit, annual interest (compound) and number of years.
@@ -20,6 +20,14 @@ A screen that takes initial investment amount, monthly deposit, annual interest 
 A screen that displays two static reports. One for year-end balances and year-end earned interest if no additional monthly deposits are made. The second displays the year-end balances and year-end earned interest based on the monthly deposit value that was input by the yser ($50.00 in this example). See below
 
 ![Image](images/Investment_output.jpg)
+
+## [Project 3 - Inventory Tracking App](Project%203%20-%20Inventory%20%20Tracking%20App)
+Inventory tracker console app written in C++ and Python.
+
+Reads in a given text-based file that conatains a list of purchased items for a single day, with the item being listed each time it is sold. The app will produce a list of all items sold in a given day along with the number of times each item was sold. It will display a number representing how many times a specific item was purchased in a given day and produce a text-based histogram listing all items purchased in a given day, along with a representation of the number of times each item was purchased. See below
+
+![Image](images/Inventory_app_menu.png)  
+![Image](images/Inventory_app_items_sold_option.png) 
 
 ## What I did particularly well.
 I did well in including a user interface that include all the required elements. 
