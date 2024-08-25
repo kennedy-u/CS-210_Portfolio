@@ -32,7 +32,7 @@ Reads in a given text-based file that conatains a list of purchased items for a 
 [Project 3 Programming Languages Explanation](docs/Project%203%20Programming%20Language%20Explanation.pdf)
 
 ## What I did particularly well in project 3.
-Integrated interface that incorporates all the necessary elements. Specifically, I designed a calculator that computes both monthly interest and the annual interest rate, which is then divided by 12. Below, you’ll find the code to calculate the interest earned over a given number of years.
+Integrated interface that incorporates all the necessary elements. Specifically, I designed a calculator that computes both monthly interest and the annual interest rate, which is then divided by 12. In this repo, you’ll find the code to calculate the interest earned over a given number of years.
 
 ## Challanges I faced when writing the code and how I overcome them.
 During the development and integration of my sources, I encountered minimal roadblocks. However, I faced some roadblocks when I was designing the .h header file(s). It was nearly my first time including a header files in a C++ program. To make things easier I requested assistance from the academic support service where I learned everything about header files.
