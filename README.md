@@ -4,72 +4,71 @@ CS-210 Projects
 ## [Project 1 - Clock App](Project%201%20-%20Clock%20App)
 A 12 and 24-hour console clock app written in C++.
 
-Display 12-hour clock format where the clock does not exceed 12:59:59, display 24-hour clock format where the clock does not exceed 23:59:59,
-and both clocks will synchronously  display the host current time in a proper format.
+Displays a 12-hour clock format, ensuring the time does not exceed 12:59:59, and a 24-hour clock format, ensuring the time does not exceed 23:59:59. Both clocks will synchronously display the host's current time in the correct format.
 
 ![Image](images/Clock-App.jpg)
 
 ## [Project 2 - Investment Banking App](Project%202%20-%20Investment%20Banking%20App)
-Investment and compound interest console app written in C++.
+Investment/compound interest console app written in C++.
 
-An application that allows users to see how their investment will grow over time.
-A screen that takes initial investment amount, monthly deposit, annual interest (compound) and number of years.
+An application that allows users to see how their investment will grow over time. The screen prompts for the initial investment amount, monthly deposit, annual compound interest rate, and number of years.
 
 ![Image](images/Investment_input.png)
 
-A screen that displays two static reports. One for year-end balances and year-end earned interest if no additional monthly deposits are made. The second displays the year-end balances and year-end earned interest based on the monthly deposit value that was input by the yser ($50.00 in this example). See below
+The screen displays two static reports: the first shows year-end balances and earned interest if no additional monthly deposits are made, while the second shows year-end balances and earned interest based on the monthly deposit value entered by the user (e.g., $50.00). See below:
 
-![Image](images/Investment_output.png)
+![Image](images/Investment_output.jpg)
+[Project 2 Flowchart](docs/Project%202%20Flowchart.pdf)
 
-## What I did particularly well.
-I did well in including a user interface that include all the required elements. 
-I designed a calculator that calculated monthly interest, interest rate for annual, and I divide the rate by 12.
-Below is the code to calculate the given year and interest earned
 
-    int currentyear = 1;
+## [Project 3 - Inventory Tracking App](Project%203%20-%20Inventory%20%20Tracking%20App)
+Inventory tracker console app written in C++ and Python.
 
-    double yearendBalance = this->initialDeposit;
 
-    while (currentyear <= this->numYears) {
+The application reads a text-based file containing a list of purchased items for a single day, with each item listed each time it is sold. It generates a list of all items sold that day, including the number of times each item was sold. Additionally, it displays the count of purchases for each specific item and produces a text-based histogram showing all items purchased, along with a visual representation of the purchase frequency. See below:
 
-        //calulate interest monthly and find compoud interest
+![Image](images/Inventory_app_menu.png)  
+![Image](images/Inventory_app_items_sold_option.png) 
+[Project 3 Programming Languages Explanation](docs/Project%203%20Programming%20Language%20Explanation.pdf)
 
-        int month = 1;
+## What I did particularly well in project 3.
+Designed an integrated interface that includes all the essential elements. I designed a calculator that computes both monthly interest and the annual interest rate, which is then divided by 12. In this repository, you’ll find the code to calculate the interest earned over a specified number of years.
 
-        double interestearned = 0.0;
+## Challanges I faced when writing the code and how I overcome them.
+During the development and integration of my sources, I encountered minimal roadblocks. However, I faced some challenges when designing the .h header files, as it was nearly my first experience including header files in a C++ program. To address this, I sought assistance from the academic support service, where I learned the fundamentals of header files.
 
-        double monthendbalance = yearendBalance;
+Here are the key insights I gained during this process:
 
-        while (month <= 12) {
+- Purpose of Header Files: Header files (.h) are used to declare classes, functions, and variables, providing an interface for other parts of the program.
+- Separation of Declaration and Definition: In C++, it is standard practice to declare classes and their methods in the header files and define them later in the source code (.cpp files).
 
-            //Add monthly deposit
+```zsh
+double monthendbalance = yearendBalance;
 
-            monthendbalance += this->monthlyDeposit;
+while (month <= 12) {
+    // Add monthly deposit
+    monthendbalance += this->monthlyDeposit;
 
-            //Calculate monthly interest, interest rate is for annual. so divide the rate by 12
+    // Calculate monthly interest. The interest rate is annual, so divide by 12
+    double monthlyinterest = monthendbalance * this->interestRate / (100 * 12);
 
-            double monthlyinterest = monthendbalance * this->interestRate / (100 * 12);
+    // Add the monthly interest to yearly interest earned
+    interestearned += monthlyinterest;
 
-            //Add the monthly interest to yearly interest earned
+    // Add the interest to monthend balance
+    monthendbalance += monthlyinterest;
 
-            interestearned += monthlyinterest;
+    // Increase the month by 1
+    month++;
+}
+```
 
-            // add the interest to monthend balance
-
-            monthendbalance += monthlyinterest;
-
-            //Increase the month by 1
-
-            month++;
-
-        }
 
 ## Where I could enhance this code and how this will improve the efficeinecy and security
-I think the code could have used error handling to effectively validate user input
+The code could have used error handling to effectively validate user input
 
 ## Challanges I faced when writing the code, how I overcome them and tools or resources I added to my support network
-There wasn't much road_blocks during the development of my code, however, I was a little lost when I was designing the .h header file because it was almost my first time including a header file in a C++ program. I had to use the academic support service to further help myself,  and they explained in details how to include header files, I learned that classes should be declared in the header file and the define later in the source code per standard coding practices. 
+While the development of my code went smoothly overall, I did encounter some confusion when designing the .h header file, as this was one of my first experiences with header files in a C++ program. I sought assistance from the academic support service, which provided a detailed explanation of how to include header files. I learned that, according to standard coding practices, classes should be declared in the header file and defined later in the source code.
 
 ## Skills I learned from this project that is tranferable to other projects or course work
-Skills I learned from this project are how to include .h file properly, how to declare functions properly and do some calculations that were required during the development of the code. Although, throughout this course I deeply learned how to integrate C++ and Python!!!! lol, it took me time to fully digest how it works and now I can easily refer to the file path and do my configuration how I want it or as specified.
-Thanks for reading :)
+From this project, I gained valuable skills, including properly including .h files, declaring functions correctly, and performing the necessary calculations during code development. Throughout this course, I also learned how to integrate C++ with Python. Although it took time to fully grasp, I can now easily reference file paths and configure settings as needed or specified.
