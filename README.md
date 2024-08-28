@@ -12,19 +12,17 @@ and both clocks will synchronously  display the host current time in a proper fo
 ## [Project 2 - Investment Banking App](Project%202%20-%20Investment%20Banking%20App)
 Investment and compound interest console app written in C++.
 
-An application that allows users to see how their investment will grow over time.
+An application that allows user to see how their investment will grow over time.
 A screen that takes initial investment amount, monthly deposit, annual interest (compound) and number of years.
 
 ![Image](images/Investment_input.png)
 
-A screen that displays two static reports. One for year-end balances and year-end earned interest if no additional monthly deposits are made. The second displays the year-end balances and year-end earned interest based on the monthly deposit value that was input by the yser ($50.00 in this example). See below
+The screen displays two static reports: the first shows year-end balances and earned interest if no additional monthly deposits are made, while the second shows year-end balances and earned interest based on the monthly deposit value entered by the user (e.g., $50.00). See below:
 
 ![Image](images/Investment_output.png)
 
 ## What I did particularly well.
-I did well in including a user interface that include all the required elements. 
-I designed a calculator that calculated monthly interest, interest rate for annual, and I divide the rate by 12.
-Below is the code to calculate the given year and interest earned
+I successfully incorporated a user interface that includes all the required elements. I designed a calculator that computes monthly interest, annual interest rate, and divides the rate by 12. Below is the code to calculate the interest earned over a given year.
 
     int currentyear = 1;
 
@@ -68,8 +66,7 @@ Below is the code to calculate the given year and interest earned
 I think the code could have used error handling to effectively validate user input
 
 ## Challanges I faced when writing the code, how I overcome them and tools or resources I added to my support network
-There wasn't much road_blocks during the development of my code, however, I was a little lost when I was designing the .h header file because it was almost my first time including a header file in a C++ program. I had to use the academic support service to further help myself,  and they explained in details how to include header files, I learned that classes should be declared in the header file and the define later in the source code per standard coding practices. 
+There weren't many roadblocks during the development of my code; however, I did encounter some confusion when designing the .h header file, as it was one of my first experiences including a header file in a C++ program. I sought help from the academic support service, where they provided a detailed explanation of how to include header files. I learned that, according to standard coding practices, classes should be declared in the header file and defined later in the source code.
 
 ## Skills I learned from this project that is tranferable to other projects or course work
-Skills I learned from this project are how to include .h file properly, how to declare functions properly and do some calculations that were required during the development of the code. Although, throughout this course I deeply learned how to integrate C++ and Python!!!! lol, it took me time to fully digest how it works and now I can easily refer to the file path and do my configuration how I want it or as specified.
-Thanks for reading :)
+From this project, I gained valuable skills, including properly including .h files, declaring functions correctly, and performing the necessary calculations during code development. Throughout this course, I also learned how to integrate C++ with Python. Although it took time to fully grasp, I can now easily reference file paths and configure settings as needed or specified.
